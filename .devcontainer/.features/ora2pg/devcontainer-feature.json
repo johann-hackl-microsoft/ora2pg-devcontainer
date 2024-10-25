@@ -1,0 +1,11 @@
+{
+    "id": "ora2pg",
+    "version": "1.5.0",
+    "name": "Ora2Pg",
+    "description": "Installs Ora2Pg along with needed dependencies. Useful for base Dockerfiles that often are missing required install dependencies like gpg.",
+    "options": {
+    },
+    "installsAfter": [
+        "./common-utils"
+    ]
+}
